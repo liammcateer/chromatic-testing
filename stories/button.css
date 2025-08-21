@@ -9,9 +9,10 @@
 }
 .storybook-button--primary {
   background-color: #555ab9;
-  color: black;
   border: 2px solid red;
   border-radius: 0px;
+  color: orange;
+  font-style: italic;
 }
 .storybook-button--secondary {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
