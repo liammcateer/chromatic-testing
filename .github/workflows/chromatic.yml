@@ -1,6 +1,10 @@
 name: "Chromatic"
 
-on: push
+# on push ignore main
+on:
+  push:
+    branches-ignore:
+      - main
 
 jobs:
   chromatic:
