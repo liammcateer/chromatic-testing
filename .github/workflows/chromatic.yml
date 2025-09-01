@@ -2,6 +2,7 @@ name: "Chromatic"
 
 # on push ignore main
 on:
+  workflow_dispatch:
   push:
     branches-ignore:
       - main
